@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Pasha Alghifari Fistanto
+  email: p.fistanto@pm.me
+  phone: (+49) 15774378153
+  url: https://johndoe.com
+  titles:
+    - Software Engineer
+  location:
+    city: Hannover
+    region: Niedersachsen
+    country: Germany
+  profiles:
+    - network: LinkedIn
+      username: Pasha Alghifari Fistanto
+      url: https://linkedin.com/in/pashafst
+    - network: GitHub
+      username: Pasha Alghifari Fistanto
+      url: https://github.com/s1syph0s
+
+work:
+  - organization: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
+    url: https://github.com/tubs-eis/PATARA
+    location: Hannover, Deutschland
+    positions:
+      - position: HiWi Softwareentwickler
+        startDate: 2020-10-01
+        endDate: 2021-04-01
+        highlights:
+          - Implementierung einer Post-Silicon Verification Tool mit Python
+  - organization: adesso SE
+    url: https://example.com
+    location: Hannover, Deutschland
+    positions:
+      - position: Softwareentwickler (Werkstudent)
+        startDate: 2022-05-01
+        endDate: 2024-05-01
+        highlights:
+          - Entwicklung und Implementierung mehrerer interner Projekte im Bereich Backend, Frontend und CI/CD
+          - Unterstützung bei der Ist-Aufnahme der IT-Architektur von der Deutsche Messe AG
+          - E2E-Tester für eine Applikation in der Deutsche Messe AG
+  - organization: Keschwari Electronic Systems
+    url: https://kesgmbh.com/
+    location: Barsinghausen, Deutschland
+    positions:
+      - position: Embedded Softwareentwickler
+        startDate: 2024-08-01
+        endDate: "present"
+        highlights:
+          - Entwicklung unterschiedlicher Firmwares für die neue Bremssystemen
+          - Hardware- und Softwaretesting
+          - Planung und Implementierung eines Git-Workflows für das Entwicklungsteam
+          - Durchführung von Git Schulungen für die Entwickler
+
+education:
+  - institution: Leibniz Universität Hannover
+    url: https://example.com/
+    area: Elektrotechnik
+    studyType: Bachelor of Science
+    startDate: 2018-04-01
+    endDate: 2022-01-01
+    location: Hannover, Deutschland
+    honors:
+      - Note 2,4
+    courses:
+      - Vertiefung in Computer Engineering
+      - Algorithmen & Datenstrukturen
+      - Computer Vision
+    highlights:
+      - "*Thesis*: Implementierung von Algorithmen zur 3D-Oberflächenmessung Nicht-Statischer Objekte mit Structured Light"
+  - institution: Leibniz Universität Hannover
+    url: https://example.com/
+    area: Technische Informatik
+    studyType: Master of Science
+    startDate: 2021-10-01
+    endDate: 2024-05-01
+    location: Hannover, Deutschland
+    honors:
+      - Note 1,9
+    courses:
+      - Betriebssystem
+      - Machine Learning
+      - Rechnerarchitektur und Hardwarenahe Programmierung
+      - Kommunikationstechnik
+    highlights:
+      - "*Thesis*: Efficient Copy-on-Write for Virtual-Memory Objects"
+
+affiliations:
+
+awards:
+
+certificates:
+
+publications:
+  - name: "PATARA: A REVERSI-Based Open-Source Tool for Post-Silicon Validation of Processor Cores"
+    publisher: "2021 10th International Conference on Modern Circuits and Systems Technologies (MOCAST)"
+    releaseDate: 2021-07-01
+    url: https://www.researchgate.net/publication/353503260_PATARA_A_REVERSI-Based_Open-Source_Tool_for_Post-Silicon_Validation_of_Processor_Cores
+
+projects:
+  - name: "bittorrent-rs"
+    url: https://github.com/s1syph0s/bittorrent-rs
+    affiliation: https://github.com/s1syph0s/bittorrent-rs
+    highlights:
+      - Implementierung von Bittorrent Client mit Rust
+      - Rust, tokio, TCP
+  - name: "Masterarbeit: Efficient Copy-on-Write for Virtual-Memory Objects"
+    url: ""
+    affiliation: Systems Research and Architekture (Leibniz Universität Hannover)
+    highlights:
+      - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
+      - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
+  - name: "Turvalo: Ein intelligentes Fahrradrücklicht"
+    url: ""
+    affiliation: Institut der Mikroelektronische Systeme (Leibniz Universität Hannover)
+    highlights:
+      - Ein smartes Fahrradrücklicht mit Diebstahlschutz und zahlreiche Funktionen
+      - ESP-32, C++, ESP-IDF, NFC, Fusion 360
+  - name: "hypr-kblayout"
+    url: "https://github.com/s1syph0s/hypr-kblayout/"
+    affiliation: https://github.com/s1syph0s/hypr-kblayout/
+    highlights:
+      - A custom waybar module to get keyboard layout for hyprland
+      - Rust, UNIX Socket
+  - name: "Bachelorarbeit: Implementierung von Algorithmen zur 3D-Oberflächenmessung Nicht-Statischer Objekte mit Structured Light"
+    url: ""
+    affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
+    highlights:
+      - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
+      - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
+  - name: "RC Car"
+    url: ""
+    affiliation: Institut für Kommunikationstechnik (Leibniz Universität Hannover)
+    highlights:
+      - Raspberry Pi betriebenes RC-Auto mit Videoübertragung und automatischem Parallelparken
+      - Raspberry Pi, Raspbian, Python, TCP, UDP
+  - name: "Emotional Clothes"
+    url: ""
+    affiliation: Institut für Human-Computer-Interaction (Leibniz Universität Hannover)
+    highlights:
+      - Kleidungsstücke, die ihre Form je nach der Stimmung verändern
+      - Arduino, Kotlin, C++, Bluetooth
+  - name: "MPStuBS"
+    url: ""
+    affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
+    highlights:
+      - Ein einfaches Mehrkernbetriebssystem für die x86-Architektur
+      - C, C++, Assembly, x86
+
+skills:
+  - category: Soft Skills
+    skills:
+      - Communication
+      - Critical Thinking
+      - Leadership
+      - Persuasive Writing
+      - Technical Writing
+  - category: Programmiersprache
+    skills:
+      - C
+      - Rust
+      - Java
+      - C++
+      - Python
+      - Nix
+      - Bash
+      - Lua
+      - Javascript
+  - category: Tools
+    skills:
+      - Git
+      - Docker / Podman
+      - Neovim
+      - Jenkins
+  - category: Betriebssystem
+    skills:
+      - NixOS
+      - Debian
+      - Arch Linux
+      - RTOS
+      - Buildroot
+
+languages:
+  - language: Indonesisch
+    fluency: Muttersprache
+  - language: Deutsch
+    fluency: C1
+  - language: Englisch
+    fluency: C1
+
+interests:
+
+references:
+  # You can comment out the entries below if you don't have any references
+  # The same goes for the publications
+
+  # - name: Dr. Jane Austin
+  #   reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+  #   url: https://janeaustin.com
