@@ -4,7 +4,7 @@ personal:
   name: Pasha Alghifari Fistanto
   email: p.fistanto@pm.me
   phone: (+49) 15774378153
-  url: https://johndoe.com
+  url: 
   titles:
     - Software Engineer
   location:
@@ -107,7 +107,7 @@ projects:
       - Rust, tokio, TCP
   - name: "Masterarbeit: Efficient Copy-on-Write for Virtual-Memory Objects"
     url: ""
-    affiliation: Systems Research and Architekture (Leibniz Universität Hannover)
+    affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
       - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
       - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
