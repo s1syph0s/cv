@@ -14,7 +14,7 @@
           name = "typst-shell";
           packages = [ 
             typst
-            typst-lsp
+            tinymist
           ];
         });
       }

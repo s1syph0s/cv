@@ -40,7 +40,7 @@ work:
           - Entwicklung und Implementierung mehrerer interner Projekte im Bereich Backend, Frontend und CI/CD
           - Unterstützung bei der Ist-Aufnahme der IT-Architektur von der Deutsche Messe AG
           - E2E-Tester für eine Applikation in der Deutsche Messe AG
-  - organization: Keschwari Electronic Systems
+  - organization: Keschwari Electronic Systems GmbH & Co. KG
     url: https://kesgmbh.com/
     location: Barsinghausen, Deutschland
     positions:
@@ -99,6 +99,18 @@ publications:
     url: https://www.researchgate.net/publication/353503260_PATARA_A_REVERSI-Based_Open-Source_Tool_for_Post-Silicon_Validation_of_Processor_Cores
 
 projects:
+  - name: "USB Temperature-Sensor Driver"
+    url: 
+    affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
+    highlights:
+      - USB-Driver für einen Temperatursensor.
+      - Linux Kernel Module, C
+  - name: "Pi Sensor Web"
+    url: 
+    affiliation: 
+    highlights:
+      - Ein Netz von Raspberry Pis (1 Controller, n Agents), um Sensordaten von verschiedenen Sensor-Agents zu empfangen. (WIP)
+      - Buildroot, Linux Kernel Module, C, Rust, Raspberry Pi
   - name: "bittorrent-rs"
     url: https://github.com/s1syph0s/bittorrent-rs
     affiliation: https://github.com/s1syph0s/bittorrent-rs
@@ -127,7 +139,7 @@ projects:
     url: ""
     affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
     highlights:
-      - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
+      - Schnelle 3D-Oberflächenmessung mittels Structured Light für die Fehlermessung während des 3D-Druckvorgangs
       - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
   - name: "RC Car"
     url: ""
@@ -137,7 +149,7 @@ projects:
       - Raspberry Pi, Raspbian, Python, TCP, UDP
   - name: "Emotional Clothes"
     url: ""
-    affiliation: Institut für Human-Computer-Interaction (Leibniz Universität Hannover)
+    affiliation: Institut für Praktische Informatik (Leibniz Universität Hannover)
     highlights:
       - Kleidungsstücke, die ihre Form je nach der Stimmung verändern
       - Arduino, Kotlin, C++, Bluetooth
@@ -149,13 +161,6 @@ projects:
       - C, C++, Assembly, x86
 
 skills:
-  - category: Soft Skills
-    skills:
-      - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
   - category: Programmiersprache
     skills:
       - C
@@ -173,6 +178,10 @@ skills:
       - Docker / Podman
       - Neovim
       - Jenkins
+      - Cargo
+      - Make
+      - Maven
+      - CMake
   - category: Betriebssystem
     skills:
       - NixOS
@@ -180,6 +189,7 @@ skills:
       - Arch Linux
       - RTOS
       - Buildroot
+      - Yocto
 
 languages:
   - language: Indonesisch
