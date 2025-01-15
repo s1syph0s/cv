@@ -24,39 +24,40 @@ work:
     url: https://github.com/tubs-eis/PATARA
     location: Hannover, Deutschland
     positions:
-      - position: HiWi Softwareentwickler
+      - position: HiWi Software Engineer
         startDate: 2020-10-01
         endDate: 2021-04-01
         highlights:
-          - Implementierung einer Post-Silicon Verification Tool mit Python
+          - Implementation of a post-silicon verification tool with Python
+
   - organization: adesso SE
     url: https://example.com
     location: Hannover, Deutschland
     positions:
-      - position: Softwareentwickler (Werkstudent)
+      - position: Software Engineer (Working Student)
         startDate: 2022-05-01
         endDate: 2024-05-01
         highlights:
-          - Entwicklung und Implementierung mehrerer interner Projekte im Bereich Backend, Frontend und CI/CD
-          - Unterstützung bei der Ist-Aufnahme der IT-Architektur von der Deutsche Messe AG
-          - E2E-Tester für eine Applikation in der Deutsche Messe AG
+          - Development and implementation of several internal projects in the areas of backend, frontend and CI/CD
+          - Support for the current assessment of the IT architecture of Deutsche Messe AG
+          - E2E tester for an application at Deutsche Messe AG
   - organization: Keschwari Electronic Systems GmbH & Co. KG
     url: https://kesgmbh.com/
     location: Barsinghausen, Deutschland
     positions:
-      - position: Embedded Softwareentwickler
+      - position: Embedded Software Engineer
         startDate: 2024-08-01
         endDate: "present"
         highlights:
-          - Entwicklung unterschiedlicher Firmwares für die neue Bremssystemen
-          - Hardware- und Softwaretesting
-          - Planung und Implementierung eines Git-Workflows für das Entwicklungsteam
-          - Durchführung von Git Schulungen für die Entwickler
+          - Development of firmwares for the new brake systems
+          - Hardware and software testing
+          - Planning and implementation of a Git workflow for the development team
+          - Conducting Git training for the developers
 
 education:
   - institution: Leibniz Universität Hannover
     url: https://example.com/
-    area: Elektrotechnik
+    area: Electrical Engineer
     studyType: Bachelor of Science
     startDate: 2018-04-01
     endDate: 2022-01-01
@@ -64,14 +65,14 @@ education:
     honors:
       - Note 2,4
     courses:
-      - Vertiefung in Computer Engineering
-      - Algorithmen & Datenstrukturen
+      - Specialization in Computer Engineering
+      - Algorithms & Data Structures
       - Computer Vision
     highlights:
       - "*Thesis*: Implementierung von Algorithmen zur 3D-Oberflächenmessung Nicht-Statischer Objekte mit Structured Light"
   - institution: Leibniz Universität Hannover
     url: https://example.com/
-    area: Technische Informatik
+    area: Computer Engineering
     studyType: Master of Science
     startDate: 2021-10-01
     endDate: 2024-05-01
@@ -79,10 +80,10 @@ education:
     honors:
       - Note 1,9
     courses:
-      - Betriebssystem
+      - Operating system
       - Machine Learning
-      - Rechnerarchitektur und Hardwarenahe Programmierung
-      - Kommunikationstechnik
+      - Computer architecture and hardware-related programming
+      - Communication technology
     highlights:
       - "*Thesis*: Efficient Copy-on-Write for Virtual-Memory Objects"
 
@@ -103,31 +104,31 @@ projects:
     url: 
     affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
-      - USB-Driver für einen Temperatursensor.
+      - USB-Driver for a temperature sensor.
       - Linux Kernel Module, C
   - name: "Pi Sensor Web"
     url: 
     affiliation: 
     highlights:
-      - Ein Netz von Raspberry Pis (1 Controller, n Agents), um Sensordaten von verschiedenen Sensor-Agents zu empfangen. (WIP)
+      - A network of Raspberry Pis (1 controller, n agents) to receive sensor data from different sensor agents. (WIP)
       - Buildroot, Linux Kernel Module, C, Rust, Raspberry Pi
   - name: "bittorrent-rs"
     url: https://github.com/s1syph0s/bittorrent-rs
     affiliation: https://github.com/s1syph0s/bittorrent-rs
     highlights:
-      - Implementierung von Bittorrent Client mit Rust
+      - Implementation of Bittorrent Client
       - Rust, tokio, TCP
   - name: "Masterarbeit: Efficient Copy-on-Write for Virtual-Memory Objects"
     url: ""
     affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
-      - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
+      - Implementation of the CoW mechanism for Morsels, a new memory object suitable for NVMs
       - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
-  - name: "Turvalo: Ein intelligentes Fahrradrücklicht"
+  - name: "Turvalo: An intelligent rear light for bicycles"
     url: ""
     affiliation: Institut der Mikroelektronische Systeme (Leibniz Universität Hannover)
     highlights:
-      - Ein smartes Fahrradrücklicht mit Diebstahlschutz und zahlreiche Funktionen
+      - A smart rear bike light with anti-theft protection and numerous functions
       - ESP-32, C++, ESP-IDF, NFC, Fusion 360
   - name: "hypr-kblayout"
     url: "https://github.com/s1syph0s/hypr-kblayout/"
@@ -139,25 +140,25 @@ projects:
     url: ""
     affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
     highlights:
-      - Schnelle 3D-Oberflächenmessung mittels Structured Light für die Fehlermessung während des 3D-Druckvorgangs
-      - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
+      - Fast 3D surface measurement using Structured Light for error measurement during the 3D printing process
+      - Python, C, CUDA
   - name: "RC Car"
     url: ""
     affiliation: Institut für Kommunikationstechnik (Leibniz Universität Hannover)
     highlights:
-      - Raspberry Pi betriebenes RC-Auto mit Videoübertragung und automatischem Parallelparken
+      - Raspberry Pi powered RC car with video transmission and automatic parallel parking
       - Raspberry Pi, Raspbian, Python, TCP, UDP
   - name: "Emotional Clothes"
     url: ""
     affiliation: Institut für Praktische Informatik (Leibniz Universität Hannover)
     highlights:
-      - Kleidungsstücke, die ihre Form je nach der Stimmung verändern
+      - Garments that change shape depending on your mood
       - Arduino, Kotlin, C++, Bluetooth
   - name: "MPStuBS"
     url: ""
     affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
-      - Ein einfaches Mehrkernbetriebssystem für die x86-Architektur
+      - A simple multi-core operating system for the x86 architecture
       - C, C++, Assembly, x86
 
 skills:
@@ -193,11 +194,11 @@ skills:
       - Yocto
 
 languages:
-  - language: Indonesisch
-    fluency: Muttersprache
-  - language: Deutsch
+  - language: Indonesian
+    fluency: Native language
+  - language: German
     fluency: C1
-  - language: Englisch
+  - language: English
     fluency: C1
 
 interests:
