@@ -172,6 +172,7 @@ skills:
       - Bash
       - Lua
       - Javascript
+      - Go
   - category: Tools
     skills:
       - Git
