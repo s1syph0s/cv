@@ -140,7 +140,7 @@ projects:
     affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
     highlights:
       - Schnelle 3D-Oberflächenmessung mittels Structured Light für die Fehlermessung während des 3D-Druckvorgangs
-      - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
+      - Python, C, CUDA
   - name: "RC Car"
     url: ""
     affiliation: Institut für Kommunikationstechnik (Leibniz Universität Hannover)
