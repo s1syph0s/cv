@@ -99,66 +99,54 @@ publications:
     url: https://www.researchgate.net/publication/353503260_PATARA_A_REVERSI-Based_Open-Source_Tool_for_Post-Silicon_Validation_of_Processor_Cores
 
 projects:
-  - name: "USB Temperature-Sensor Driver"
-    url: 
-    affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
-    highlights:
-      - USB-Driver für einen Temperatursensor.
-      - Linux Kernel Module, C
-  - name: "Pi Sensor Web"
-    url: 
-    affiliation: 
-    highlights:
-      - Ein Netz von Raspberry Pis (1 Controller, n Agents), um Sensordaten von verschiedenen Sensor-Agents zu empfangen. (WIP)
-      - Buildroot, Linux Kernel Module, C, Rust, Raspberry Pi
-  - name: "bittorrent-rs"
-    url: https://github.com/s1syph0s/bittorrent-rs
-    affiliation: https://github.com/s1syph0s/bittorrent-rs
-    highlights:
-      - Implementierung von Bittorrent Client mit Rust
-      - Rust, tokio, TCP
   - name: "Masterarbeit: Efficient Copy-on-Write for Virtual-Memory Objects"
     url: ""
     affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
       - Implementierung des CoW Mechanismus für Morsels, ein neues Speicherobjekt, das sich für NVMs eignet
       - C, C++, Linux Kernel, Kernel Module, QEMU/KVM
-  - name: "Turvalo: Ein intelligentes Fahrradrücklicht"
-    url: ""
-    affiliation: Institut der Mikroelektronische Systeme (Leibniz Universität Hannover)
+  - name: "bittorrent-rs"
+    url: https://github.com/s1syph0s/bittorrent-rs
+    affiliation: https://github.com/s1syph0s/bittorrent-rs
     highlights:
-      - Ein smartes Fahrradrücklicht mit Diebstahlschutz und zahlreiche Funktionen
-      - ESP-32, C++, ESP-IDF, NFC, Fusion 360
+      - Implementierung von Bittorrent Client mit Rust
+      - Rust, tokio, TCP
+  - name: "USB Temperature-Sensor Driver"
+    url: 
+    affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
+    highlights:
+      - USB-Driver für einen Temperatursensor.
+      - Linux Kernel Module, C
   - name: "hypr-kblayout"
     url: "https://github.com/s1syph0s/hypr-kblayout/"
     affiliation: https://github.com/s1syph0s/hypr-kblayout/
     highlights:
       - A custom waybar module to get keyboard layout for hyprland
       - Rust, UNIX Socket
-  - name: "Bachelorarbeit: Implementierung von Algorithmen zur 3D-Oberflächenmessung Nicht-Statischer Objekte mit Structured Light"
-    url: ""
-    affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
-    highlights:
-      - Schnelle 3D-Oberflächenmessung mittels Structured Light für die Fehlermessung während des 3D-Druckvorgangs
-      - Python, C, CUDA
-  - name: "RC Car"
-    url: ""
-    affiliation: Institut für Kommunikationstechnik (Leibniz Universität Hannover)
-    highlights:
-      - Raspberry Pi betriebenes RC-Auto mit Videoübertragung und automatischem Parallelparken
-      - Raspberry Pi, Raspbian, Python, TCP, UDP
-  - name: "Emotional Clothes"
-    url: ""
-    affiliation: Institut für Praktische Informatik (Leibniz Universität Hannover)
-    highlights:
-      - Kleidungsstücke, die ihre Form je nach der Stimmung verändern
-      - Arduino, Kotlin, C++, Bluetooth
   - name: "MPStuBS"
     url: ""
     affiliation: Systems Research and Architecture (Leibniz Universität Hannover)
     highlights:
       - Ein einfaches Mehrkernbetriebssystem für die x86-Architektur
       - C, C++, Assembly, x86
+  - name: "Bachelorarbeit: Implementierung von Algorithmen zur 3D-Oberflächenmessung Nicht-Statischer Objekte mit Structured Light"
+    url: ""
+    affiliation: Institut für Mikroelektronische Systeme (Leibniz Universität Hannover)
+    highlights:
+      - Schnelle 3D-Oberflächenmessung mittels Structured Light für die Fehlermessung während des 3D-Druckvorgangs
+      - Python, C, CUDA
+  - name: "Turvalo: Ein intelligentes Fahrradrücklicht"
+    url: ""
+    affiliation: Institut der Mikroelektronische Systeme (Leibniz Universität Hannover)
+    highlights:
+      - Ein smartes Fahrradrücklicht mit Diebstahlschutz und zahlreiche Funktionen
+      - ESP-32, C++, ESP-IDF, NFC, Fusion 360
+  - name: "RC Car"
+    url: ""
+    affiliation: Institut für Kommunikationstechnik (Leibniz Universität Hannover)
+    highlights:
+      - Raspberry Pi betriebenes RC-Auto mit Videoübertragung und automatischem Parallelparken
+      - Raspberry Pi, Raspbian, Python, TCP, UDP
 
 skills:
   - category: Programmiersprache
@@ -190,7 +178,6 @@ skills:
       - Arch Linux
       - RTOS
       - Buildroot
-      - Yocto
 
 languages:
   - language: Indonesisch
